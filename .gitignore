@@ -1,0 +1,12 @@
+*.pyc
+htmlcov
+local_settings.py
+*.log
+*.tmp
+*.swp
+*pydev*
+.project
+*.tmp*~
+*CACHE*
+media/
+static_files/
