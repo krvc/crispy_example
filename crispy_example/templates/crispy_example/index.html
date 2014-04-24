@@ -1,0 +1,15 @@
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href='{% static "bootstrap/css/bootstrap.css" %}'>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                {% crispy form %}
+            </div>
+        </div>
+    </body>
+</html>
